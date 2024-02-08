@@ -92,7 +92,7 @@ footer {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px;) {
+@media screen and (min-width: 768px) {
     /* Header */
     nav {
         display: block;
@@ -109,5 +109,15 @@ footer {
     }
     .nav-toggle-label {
         display: none;
+    }
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0.5rem;
+    }
+    /* main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
     }
 }
